@@ -7,13 +7,13 @@ function Header() {
     return (
         <header>
            <nav className='nav'>
-                <img alt='img' src='./logo192.png' className='nav-logo'></img>
+                <img alt='img' src='./logo192.png' className='nav-logo' />
+                <ul className='nav-items'>
+                    <li>Pricing</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                </ul>
             </nav>
-            <ul className='nav-items'>
-                <li>Pricing</li>
-                <li>About</li>
-                <li>Contact</li>
-            </ul>
         </header>
      )
     
